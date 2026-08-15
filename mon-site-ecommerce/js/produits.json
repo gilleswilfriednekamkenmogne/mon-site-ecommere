@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "nom": "T-shirt",
+        "prix": "25,00 €",
+        "description": "T-shirt en coton bio, confortable et durable.",
+        "image": "produit1.jpg",
+        "categorie": "Vêtements"
+    },
+    {
+        "id": 2,
+        "nom": "Jeans",
+        "prix": "30,00 €",
+        "description": "Jeans slim coupe droite, intemporel et élégant.",
+        "image": "produit2.jpg",
+        "categorie": "Vêtements"
+    },
+    {
+        "id": 3,
+        "nom": "Robe",
+        "prix": "45,00 €",
+        "description": "Robe fluide pour toutes les occasions.",
+        "image": "produit3.jpg",
+        "categorie": "Vêtements"
+    },
+    {
+        "id": 4,
+        "nom": "Baskets",
+        "prix": "59,00 €",
+        "description": "Baskets blanches tendance, parfaites au quotidien.",
+        "image": "produit4.jpg",
+        "categorie": "Chaussures"
+    },
+    {
+        "id": 5,
+        "nom": "Montre",
+        "prix": "79,00 €",
+        "description": "Montre connectée avec bracelet en silicone.",
+        "image": "produit5.jpg",
+        "categorie": "Accessoires"
+    },
+    {
+        "id": 6,
+        "nom": "Sac à dos",
+        "prix": "49,00 €",
+        "description": "Sac à dos pratique pour le travail ou les voyages.",
+        "image": "produit6.jpg",
+        "categorie": "Accessoires"
+    },
+    {
+        "id": 7,
+        "nom": "Casque audio",
+        "prix": "89,00 €",
+        "description": "Casque audio sans fil, réduction de bruit active.",
+        "image": "produit7.jpg",
+        "categorie": "Accessoires"
+    },
+    {
+        "id": 8,
+        "nom": "Lunettes de soleil",
+        "prix": "35,00 €",
+        "description": "Lunettes de soleil polarisées, style classique.",
+        "image": "produit8.jpg",
+        "categorie": "Accessoires"
+    },
+    {
+        "id": 9,
+        "nom": "Parfum",
+        "prix": "55,00 €",
+        "description": "Parfum aux notes boisées et fraîches.",
+        "image": "produit9.jpg",
+        "categorie": "Accessoires"
+    },
+    {
+        "id": 10,
+        "nom": "Portefeuille",
+        "prix": "28,00 €",
+        "description": "Portefeuille en cuir véritable, plusieurs compartiments.",
+        "image": "produit10.jpg",
+        "categorie": "Accessoires"
+    },
+    {
+        "id": 11,
+        "nom": "Ceinture",
+        "prix": "22,00 €",
+        "description": "Ceinture en cuir, boucle métallique ajustable.",
+        "image": "produit11.jpg",
+        "categorie": "Accessoires"
+    },
+    {
+        "id": 12,
+        "nom": "Chapeau",
+        "prix": "18,00 €",
+        "description": "Chapeau en paille, idéal pour l'été.",
+        "image": "produit12.jpg",
+        "categorie": "Accessoires"
+    }
+]

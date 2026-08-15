@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+    <title>MonShop - paiement</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/logo/1.png" alt="MonShop - Logo" class="logo-img"></a>
+        </div>
+        <nav>
+            <a href="index.html">Acceuil</a>
+            <a href="produits.html">produits</a>
+            <a href="panier.html">panier</a>
+            <a href="connexion.html">Se connecter</a>
+            <a href="inscription.html">S'inscrire</a>
+        </nav>
+    </header>
+
+
+    <!-- contenu principal -->
+    <main>
+        <h1 class="page-title">Paiement</h1>
+        <div class="paiement-container">
+            <div class="paiement-form">
+                <h2>Informations de livraison</h2>
+                <form>
+                    <label for="nom">Nom complet</label>
+                    <input type="text" id="nom" placeholder="Votre nom">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Votre email">
+                    <label for="adresse">Adresse</label>
+                    <input type="text" id="adresse" placeholder="Votre adresse">
+                    <label for="code-postal">Code postal</label>
+                    <input type="text" id="code-postal" placeholder="code postal">
+                    <label for="ville">Ville</label>
+                    <input type="text" id="ville" placeholder="ville">
+                    <label for="pays">Pays</label>
+                    <select name="pays" id="pays">
+                        <option value="fr">France</option>
+                        <option value="be">Cameroun</option>
+                        <option value="ch">Belgique</option>
+                        <option value="ca">Canada</option>
+                    </select>
+                    <button type="submit" class="btn-ajouter">Confirmer la commande</button>
+                </form>
+            </div>
+            <div class="paiement-recap">
+                <h2>Récapitulatif</h2>
+                <div class="recap-ligne">
+                    <span>T-shirt * 2</span>
+                    <span>59,00 £</span>
+                </div>
+                <div class="recap-total">
+                    <span>Total</span>
+                    <span><strong>109,00 £</strong></span>
+                </div>
+                <a href="panier.html" class="btn-retour">Retour au pannier</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-contenu">
+            <p>&copy; 2026 MonShop. Tous droits réservés</p>
+            <div class="footer-liens">
+                <a href="a-propos.html">A propos</a>
+                <a href="mentions-legales.html">Mentions légales</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-sociaux">
+                <a href="#">Github</a>
+                <a href="#">Linkedin</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

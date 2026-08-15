@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>MonShop-catalogue</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/logo/1.png" alt="MonShop - Logo" class="logo-img"></a>
+        </div>
+        <nav>
+            <a href="index.html">Acceuil</a>
+            <a href="produits.html">produits</a>
+            <a href="panier.html">panier</a>
+            <a href="connexion.html">Se connecter</a>
+            <a href="inscription.html">S'inscrire</a>
+        </nav>
+    </header>
+
+    <!-- contenu principal -->
+    <main>
+        <h1 class="page-title">Nos produits</h1>
+        
+        <div class="tri-container">
+            <label for="tri">Trier par :</label>
+            <select name="tri" id="tri" class="tri-select">
+                <option value="defaut">Pertinence</option>
+                <option value="prix-croissant">Prix-croissant</option>
+                <option value="prix-decroissant">prix-decroissant</option>
+                <option value="popularite">Popularité</option>
+            </select>
+        </div>
+        
+        <div class="filtres">
+            <button class="filtre-btnactif">Tous</button>
+            <button class="filtre-btn">Vêtements</button>
+            <button class="filtre-btn">Chaussures</button>
+            <button class="filtre-btn">Accessoires</button>
+        </div>
+    
+
+        <!-- grilles produits -->
+        <div class="catlogue-grille">
+            <div class="produit-card">
+                <span class="badge-promo">-20%</span>
+                <img src="images/produits/produit1.jpg" alt="T-shirt">
+                <h3>T-shirt</h3>
+                <p>25,00 £</p>
+                <a href="produit.html">Voir</a>
+            </div>
+
+             <div class="produit-card">
+                <img src="images/produits/produit2.jpg" alt="jeans">
+                <h3>Jeans</h3>
+                <p>30,00 £</p>
+                <a href="produit.html">Voir</a>
+            </div>
+
+            <div class="produit-card">
+                <img src="images/produits/produit3.jpg" alt="robe">
+                <h3>Robe</h3>
+                <p>18,50 £</p>
+                <a href="produit.html">Voir</a>
+            </div>
+
+            <div class="produit-card">
+                <span class="badge-promo">-20%</span>
+                <img src="images/produits/produit4.jpg" alt="Basket">
+                <h3>Basket</h3>
+                <p>42,00 £</p>
+                <a href="produit.html">Voir</a>
+            </div>
+
+            <div class="produit-card">
+                <span class="badge-promo">-20%</span>
+                <img src="images/produits/produit5.jpg" alt="montre">
+                <h3>Montre</h3>
+                <p>12,00 £</p>
+                <a href="produit.html">Voir</a>
+            </div>
+            
+            <div class="produit-card">
+                <img src="images/produits/produit6.jpg" alt="Sac a dos">
+                <h3>Sac a Dos</h3>
+                <p>35,00 £</p>
+                <a href="produit.html">Voir</a>
+            </div>
+
+            <div class="produit-card">
+                <span class="badge-promo">-20%</span>
+                <img src="images/produits/produit7.jpg" alt="Casque Audio">
+                <h3>Casque Audio</h3>
+                <p>22,00 £</p>
+                <a href="produit.html">Voir</a>
+            </div>
+
+            <div class="produit-card">
+                <img src="images/produits/produit8.jpg" alt="Lunettes De Soleil">
+                <h3>Lunettes De Soleil</h3>
+                <p>15,00 £</p>
+                <a href="produit.html">Voir</a>
+            </div>
+
+            <div class="produit-card">
+                <span class="badge-promo">-20%</span>
+                <img src="images/produits/produit9.jpg" alt="Parfum">
+                <h3>Parfum</h3>
+                <p>28,00 £</p>
+                <a href="produit.html">Voir</a>
+            </div>
+
+            <div class="produit-card">
+                <img src="images/produits/produit10.jpg" alt="Porte feuiles">
+                <h3>Porte feuiles</h3>
+                <p>33,00 £</p>
+                <a href="produit.html">Voir</a>
+            </div>
+
+            <div class="produit-card">
+                <img src="images/produits/produit11.jpg" alt="Ceinture">
+                <h3>Ceinture</h3>
+                <p>19,00 £</p>
+                <a href="produit.html">Voir</a>
+            </div>
+
+            <div class="produit-card">
+                <img src="images/produits/produit12.jpg" alt="Chapeau">
+                <h3>Chapeau</h3>
+                <p>45,00 £</p>
+                <a href="produit.html">Voir</a>
+            </div>
+        </div>
+
+        <!-- pagination fictive -->
+        <div class="pagination">
+            <a href="#" class="page-active">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-contenu">
+            <p>&copy; 2026 MonShop. Tous droits réservés</p>
+            <div class="footer-liens">
+                <a href="a-propos.html">A propos</a>
+                <a href="mentions-legales.html">Mentions légales</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-sociaux">
+                <a href="#">Github</a>
+                <a href="#">Linkedin</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+     </footer>
+    
+</body>
+</html>
